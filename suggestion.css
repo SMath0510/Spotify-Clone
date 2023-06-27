@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+body{
+    box-sizing: border-box;
+    height: 2000px;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(19, 255, 255); */
+    color: rgb(227, 73, 7);
+    font-family: 'Andika', sans-serif;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+}
+nav{
+    text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+    background-image: url('images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+}
+nav ul{
+    /* background-color: rgb(255, 255, 255); */
+    color: black;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline-start: 4px;
+}
+nav ul li {
+    font-weight: 600;
+    margin: 0px 15px;
+    padding: 3px;
+    height: fit-content;
+    border: 1px #820000 solid;
+    border-radius: 5px;
+}
+.logoli{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: none;
+    border: none;
+}
+.logo{
+    width: 50px;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    position: sticky;
+    top: 15vh;
+    width: 50vw;
+    height: 80vh;
+    background-image: url('images/background3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+    border: yellow 2px solid;
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.input-form h2{
+    margin: 10px auto;
+    text-align: center;
+    font-size: xx-large;
+}
+.form-inputs{
+    width: 30vw;
+    padding: 10px;
+    margin: 25px;
+    border: yellow 2px solid;
+    border-radius: 15px;
+}
+.input-labels{
+    min-width: 6vw;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+}
+#submit-button{
+    align-self: center;
+    width: fit-content;
+    background-color: black;
+    color: antiquewhite;
+}

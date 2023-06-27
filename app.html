@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Tinkerly</title>
+</head>
+<body>
+    <nav>
+        <ul class="Navigation">
+            <li class="logoli"><img src="images/logo.png" alt="Tinkerly" class="logo"> Tinkerly</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="suggestion.html">Suggestion</a></li>
+        </ul>
+    </nav>
+    
+    <div class="mainbody">
+        <h1>Soothing Playlist</h1>
+        <div></div>
+        <div class="songs">
+            <div class="songbox" id="box1">
+                <img class="singerlist image" src="images/singer2.jpeg" alt="Song-Singer">
+                <h5 class="songname">Nothings Gonna Change</h5>
+                <img class="local-button image" src="images/play-button.png" alt="playbutton" id="1">
+            </div>
+            <div class="songbox" id="box2">
+                <img class="singerlist image" src="images/singer2.jpeg" alt="Song-Singer">
+                <h5 class="songname">Nothings Gonna Change</h5>
+                <img class="local-button image" src="images/play-button.png" alt="playbutton" id="2">
+            </div>
+            <div class="songbox" id="box3">
+                <img class="singerlist image" src="images/singer2.jpeg" alt="Song-Singer">
+                <h5 class="songname">Nothings Gonna Change</h5>
+                <img class="local-button image" src="images/play-button.png" alt="playbutton" id="3">
+            </div>
+            <div class="songbox" id="box4">
+                <img class="singerlist image" src="images/singer2.jpeg" alt="Song-Singer">
+                <h5 class="songname">Nothings Gonna Change</h5>
+                <img class="local-button image" src="images/play-button.png" alt="playbutton" id="4">
+            </div>
+            <div class="songbox" id="box5">
+                <img class="singerlist image" src="images/singer2.jpeg" alt="Song-Singer">
+                <h5 class="songname">Nothings Gonna Change</h5>
+                <img class="local-button image" src="images/play-button.png" alt="playbutton" id="5">
+            </div>
+        </div>
+    </div>
+    
+    <div class="player">
+        <ul>
+            <div class="bottomdisplay">
+                <li><img class="singerimg image" src="images/singer2.jpeg" alt="Song-Singer" id="maincover"></li>
+                <li class="songname" id="mainname">Song Name</li>
+            </div>
+            <div class="playbox">
+                <div class="controlbox">
+                    <li><img class="control image" src="images/backward.png" alt="backward" id="previous"></li>
+                    <li><img class="control image" src="images/play.png" alt="play" id="mainplayer"></li>
+                    <li><img class="control image" src="images/forward.png" alt="forward" id="next"></li>
+                </div>
+                <li class="playbar"><input type="range" name="range" id="progressBar" value=0 min="0" max="100"></li>
+            </div>
+            
+        </ul>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

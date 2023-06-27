@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+body{
+    box-sizing: border-box;
+    height: 2000px;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(19, 255, 255); */
+    color: rgb(227, 73, 7);
+    font-family: 'Andika', sans-serif;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+}
+nav{
+    text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+    background-image: url('images/background2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+}
+.image{
+    padding: 5px;
+    border: 1px yellow solid;
+    border-radius: 10px;
+    background-color: red;
+}
+nav ul{
+    /* background-color: rgb(255, 255, 255); */
+    color: black;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline-start: 4px;
+}
+nav ul li {
+    font-weight: 600;
+    margin: 0px 15px;
+    padding: 3px;
+    height: fit-content;
+    border: 1px #820000 solid;
+    border-radius: 5px;
+}
+.logoli{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: none;
+    border: none;
+}
+.logo{
+    width: 50px;
+}
+.songs{
+    min-height: 60vh;
+    margin: 0px;
+    padding: 10px;
+    /* opacity: 50%; */
+}
+
+.songbox h5{
+    margin: auto 10px;
+}
+.songbox{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 50vw;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('images/background3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light ;
+    border: #820000 solid 1px;
+    border-radius: 10px;
+}
+.mainbody h1{
+    text-align: center;
+}
+.songname{
+    min-width: 25vw;
+    color: #000000;
+    text-align: center;
+    padding-left: 8vw;
+    text-shadow: 0 0 4px #ffe24f;
+}
+.singerlist{
+    width: 40px;
+    min-height: 40px;
+    align-self: flex-start;
+    max-height: 60px;
+    background-color: #000000;
+}
+.local-button{
+    border-width: 2px;
+    margin: auto 5px;
+    align-self: flex-end;
+    width: 20px;
+    height: 20px;
+}
+.player{
+    display: flex;
+    list-style-type: none;
+    position: sticky;
+    top: 75vh;
+    width: 100%;
+    /* align-items: flex-end; */
+    justify-content: center;
+}
+
+.player ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 4px;
+}
+
+.player ul li{
+    text-align: center;
+    margin: -1px 10px;
+    padding: 3px;
+    border: 1px rgb(227, 73, 7);
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.bottomdisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.singerimg{
+    width: 100px;
+}
+
+#progressBar{
+    width: 75vh;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    background: #ff0202; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+#progressBar::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #ffb702;
+    border-radius: 1px;
+    border: 0px solid #000000;
+}
+#progressBar::-webkit-slider-thumb {
+    background: rgb(255, 115, 0);
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    cursor: cell;
+    -webkit-appearance: none;
+    margin-top: -5px;
+}
+#progressBar::-moz-range-thumb {
+    background: #ffe24f; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.control{
+    width: 15px;
+}
+
+.controlbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vh;
+}
+
+.playbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbar{
+    height: 10px;
+    margin: 10px;
+}
